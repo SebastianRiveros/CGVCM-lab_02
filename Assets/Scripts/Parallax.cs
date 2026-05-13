@@ -24,7 +24,7 @@ public class Parallax : MonoBehaviour
 
         // Aplicar movimiento parallax
         transform.position += new Vector3(
-            deltaMovement.x *   ,
+            deltaMovement.x * parallaxEffect,
             deltaMovement.y * parallaxEffect,
             0f
         );

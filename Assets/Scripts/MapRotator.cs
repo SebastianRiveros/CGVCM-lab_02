@@ -73,5 +73,6 @@ public class MapRotator : MonoBehaviour
         transform.rotation = targetRotation;
 
         isRotating = false;
+        
     }
 }
